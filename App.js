@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import AddScreen from './screens/AddScreen';
-import PickerScreen from './screens/PickerScreen';
+
 import {
   createAppContainer,
   createSwitchNavigator
@@ -32,9 +32,7 @@ const switchNavigator = createSwitchNavigator({
   AddScreen: {
     screen: AddScreen
   },
-  PickerScreen : {
-    screen : PickerScreen
-  }
+  
 })
 
 const AppContainer = createAppContainer(switchNavigator)

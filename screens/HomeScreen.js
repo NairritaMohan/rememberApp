@@ -11,7 +11,7 @@ export default class HomeScreen extends React.Component{
 <TouchableOpacity 
 style = {styles.button}
 onPress = {()=>{
-this.props.navigation.navigate("PickerScreen")
+this.props.navigation.navigate("AddScreen")
 }}>
   <MaterialIcons
   name = "add"
